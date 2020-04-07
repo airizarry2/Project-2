@@ -4,9 +4,34 @@
   <title>Contact Us</title>
   <meta charset="utf-8" />
   <meta name="viewport" />
-  <link rel="stylesheet" media="screen" href="css/screen.css" />
+  <link rel="stylesheet" media="screen" href="css/reset.css" />
+   <link rel="stylesheet" media="screen" href="css/screen.css" />
+   <script async src="js/script.js"></script>
 </head>
+
 <body>
+<nav>
+	<ul class="nav">
+	<li> <a href= " .html"> Payment </a></li>
+	<li> <a href= " .html"> Home Page </a></li>
+	</ul>
+</nav>
+
+<h1>Contact Us</h1>
+<form method="get" name="myForm" autocomplete="on" action="#" onsubmit="return validateForm()">
+	  <h2>Thank you for your interest in ISUD!</h2>
+      <label for="firstname"> First Name </label>
+      <input type="text" id="firstname" placeholder="Enter your first name">
+      <label for="lastname"> Last Name </label>
+      <input type="text" id="lastname"  placeholder="Enter your last name">
+      <label for="email"> Email </label>
+      <input type="text" id="email"  placeholder="Enter your Email">
+      <label for="phone"> Phone Number</label>
+      <input type="tel" id="phone" placeholder="(555) 555-1234"> 
+	  <input type="submit" onclick="submit1()">
+      <input type="reset" value="Reset">
+</form>
+
 
 </body>
 </html>
