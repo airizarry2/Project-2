@@ -27,6 +27,11 @@ li {
   margin-right: 10px;
 }
 
+label{
+	color: #191970;
+	margin-right: 10px;
+	font-family: Lucida Console;
+}
 
 input {
   padding: 12px 20px;
@@ -36,13 +41,20 @@ input {
 input[type=text]:focus {
   background-color: lightblue;
 }
+input[type=text]{
+	border: 2px;
+	border-radius: 4px;
+}
 
 input [type=button], input[type=submit], input[type=reset]{
 	background-color: lightgray;
 	border-radius: 8px;
 	cursor: pointer;
 }
-
+input[type=tel]{
+border: 2px;
+	border-radius: 4px;
+}
 input[type=tel]:focus {
   background-color: lightblue;
 }
