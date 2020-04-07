@@ -81,10 +81,29 @@ input[type=tel]:focus {
   color: white;
 }
 
-#form{
-margin-left: 200px;
+#form1{
+margin-left: 0px;
 	
 }
+#form{
+	border-width:5px;  
+    border-bottom-style:double;
+	margin-left:0px;
+	
+}
+
+#info {
+  text-align: center;
+}
+
+#intro {
+  color: white;
+  margin-left: 5em;
+  margin-right: 5em;
+  font-size: 2em;
+}
+
+
 
 @media only screen and (min-width: 992px) {
   #navbar-container ul {
@@ -100,7 +119,7 @@ margin-left: 200px;
   #navbar-container ul li {
     float: left;
     position: relative;
-    width: 10%
+    width: 10%;
   }
 
   #navbar-container ul li a {
@@ -120,13 +139,16 @@ margin-left: 200px;
     background-color: #000;
     color: white;
   }
-}
-#form1{
-	margin-left: 200px;
-}
-#form{
-	border-width:5px;  
-    border-bottom-style:double;
-	margin-left:0px;
-	
+  
+  #intro {
+    color: white;
+    margin-left: 30em;
+    margin-right: 30em;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+  
+  #thoughts_h2 {
+    font-size: 1.7em;
+  }
 }
